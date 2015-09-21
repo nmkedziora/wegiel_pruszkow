@@ -1,0 +1,22 @@
+#index_logo {
+	width: 30%;
+	height: 30%;
+}
+
+#index_below_logo {
+	margin-left: 150px;
+	color: rgb(160, 160, 160);
+	font-size: 18px;
+}
+
+#index_circle {
+	width: 15%;
+	height: 15%;
+	margin: 120px 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+
