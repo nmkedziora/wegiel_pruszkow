@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <meta name="description" content="Strona internetowa Węgiel Pruszków">
-    <meta name="author" content="n.m.kedziora@gmail.com">
-    <link rel="icon" href="logo.jpg">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Węgiel Pruszków</title>
+        <meta name="description" content="Strona internetowa Węgiel Pruszków">
+        <meta name="author" content="n.m.kedziora@gmail.com">
+        <link rel="icon" href="img/favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <title>Węgiel Pruszków</title>
 
-    <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Google Map -->        
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+       
+    
+    </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
@@ -63,25 +70,31 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="images"> 
+                    <img src="img/logo.png" class="logo">
+                    <img src="img/coal-2.jpg" class="about-img">
+                    <img src="img/coal-2.jpg"class="contact-img">
                 </div>
             </div>
         </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        </p>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
-                </div>
-            </div>
+                <img src="img/coal-2.jpg">
+                <p>
+                    "WĘGIEL PRUSZKÓW" to firma z tradycjami, istniejąca od 1990 roku. <br/>
+                    Autoryzowany sprzedawca węgla Katowickiego Holdingu Węglowego SA.<br/>
+                    Rzetelny i solidny dostawca wysokokalorycznego węgla i koksu dla firm oraz gospodarstw domowych.</br>
+                    Materiały opałowe dostępne na składzie węgla lub w dostawie.<br/>
+                    Zapraszamy do kontaktu i do współpracy.                    
+                </p>
         </div>
     </section>
 
@@ -93,25 +106,46 @@
                     <h1>Contact Section</h1>
                 </div>
             </div>
+            
+            <div id="googleMap" style="width:500px;height:500px; float: left"></div>
+            <div>    
+                <p>
+                    "WĘGIEL PRUSZKÓW" B. i G. Kędziora, J. Chojnacki<br/>
+                    ul. Inżynierska 58<br/>
+                    05-800 Pruszków<br/>
+                    <br/>
+                    telefon:
+                        <a
+                            href="tel:+48227586003">22 758 60 03
+                        </a>
+                    <br/>
+                    e-mail:
+                        <a 
+                            href="mailto:wegielpruszkow@wp.pl?Subject=Hello%20again" target="_top">wegielpruszkow@wp.pl
+                        </a>    
+                    <br/> <br/>
+                    czynne od poniedziałku do piątku w godzinach 7:00 - 15:00<br/>
+                    oraz<br/>
+                    w soboty w godzinach 7:00 - 12:00
+                </p>
+            </div>
         </div>
     </section>
 
-
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <footer>
+        <p>Copyright © 2015. Węgiel Pruszków</p>
+        <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
- 
-  </body>
+
+    </body>
 </html>

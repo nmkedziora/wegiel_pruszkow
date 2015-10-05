@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #BBB;
+    line-height: 1.4;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-fixed-top {
+    background: #eee;
+    border: none;
+}
+
+.jumbotron {
+    background-color: #ddd;
+}
+
+.jumbotron .images {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   border: 1px solid black;
+   width: 400px;
+   height: 410px;
+   float: left;
+   margin-right: 10px;
+}
+
+.about-img {
+   border: 1px solid black;
+   width: 200px;
+   height: 200px;
+   display: block;
+   margin-bottom: 10px;
+}
+
+.contact-img {
+   border: 1px solid black;
+   width: 200px;
+   height: 200px;
+   display: block;
+}
+
+.intro-section {} 
+
+.about-section img {
+    float: right;
+}
+
+.contact-section {}
